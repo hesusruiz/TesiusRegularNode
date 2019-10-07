@@ -1,0 +1,22 @@
+2019/08/23 21:42:51 [notice] 20#20: using the "epoll" event method
+2019/08/23 21:42:51 [notice] 20#20: openresty/1.15.8.2
+2019/08/23 21:42:51 [notice] 20#20: built by gcc 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+2019/08/23 21:42:51 [notice] 20#20: OS: Linux 4.9.184-linuxkit
+2019/08/23 21:42:51 [notice] 20#20: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/08/23 21:42:51 [notice] 21#21: start worker processes
+2019/08/23 21:42:51 [notice] 21#21: start worker process 22
+2019/08/23 21:43:06 [notice] 21#21: signal 15 (SIGTERM) received from 24, exiting
+2019/08/23 21:43:06 [notice] 22#22: exiting
+2019/08/23 21:43:06 [notice] 22#22: exit
+2019/08/23 21:43:06 [notice] 21#21: signal 14 (SIGALRM) received
+2019/08/23 21:43:06 [notice] 21#21: signal 17 (SIGCHLD) received from 22
+2019/08/23 21:43:06 [notice] 21#21: worker process 22 exited with code 0
+2019/08/23 21:43:06 [notice] 21#21: exit
+2019/08/23 21:44:52 [notice] 30#30: using the "epoll" event method
+2019/08/23 21:44:52 [notice] 30#30: openresty/1.15.8.2
+2019/08/23 21:44:52 [notice] 30#30: built by gcc 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+2019/08/23 21:44:52 [notice] 30#30: OS: Linux 4.9.184-linuxkit
+2019/08/23 21:44:52 [notice] 30#30: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/08/23 21:44:52 [notice] 31#31: start worker processes
+2019/08/23 21:44:52 [notice] 31#31: start worker process 32
+2019/08/23 21:45:21 [info] 32#32: *1 client 127.0.0.1 closed keepalive connection
