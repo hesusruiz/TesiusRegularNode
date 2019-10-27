@@ -6,6 +6,7 @@ services:
       - "./alaquorum/data_dir:/root/alastria/data"
     ports:
       - "21000:21000"
+      - "22000:22000"
   openresty:
     build: ./openresty
 #    depends_on:
