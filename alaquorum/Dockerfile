@@ -134,5 +134,5 @@ ENV ADDITIONAL_ARGS "--debug --vmdebug --nodiscover"
 # Copy the entrypoint script from the build context
 COPY entrypoint.sh /usr/local/bin/
 
-ENTRYPOINT [ "entrypoint.sh" ]
+ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
 CMD ["start"]
