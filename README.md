@@ -1,2 +1,2 @@
-# TesiusRegularNode
-Repository for a Telsius regular node docker
+# Regular node for Alastria Red T
+Docker-based Regular node for Alastria Red T

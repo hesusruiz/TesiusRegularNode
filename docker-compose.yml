@@ -4,16 +4,8 @@ services:
     build: ./alaquorum
     volumes:
       - "./alaquorum/data_dir:/root/alastria/data"
-  accesspoint:
-    build: ./accesspoint
-#    depends_on:
-#      - alaquorum
-    volumes:
-      - "./accesspoint/nginxconf:/etc/nginx"
     ports:
-      - "8080:8080"
-      - "8443:8443"
-      - "22000:22000"
+      - "21000:21000"
   openresty:
     build: ./openresty
 #    depends_on:
